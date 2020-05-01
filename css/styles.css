@@ -1,0 +1,91 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: block;
+    text-align: center;
+    font-size: small;
+}
+
+nav li {
+    float: right;
+}
+
+nav ul a {
+    display: block;
+    padding: 8px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 170px;
+    padding-bottom: 15px;
+    padding-left: 135px;
+
+}
+
+#search-box {
+    border-radius: 24px;
+    width: 450px;
+    height: 40px;
+    border: 1px solid #dfe1e5; 
+}
+
+.search-buttons {
+    margin: 25px 5px 25px 5px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #dfe1e5;
+    height: 35px;
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color:#f2f2f2; 
+    color: rgba(0,0,0,.54);
+}
+
+footer a {
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+}
+
+#country {
+    padding: 15px 0px 10px 22px;
+    border-top: 1px solid #e4e4e4;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px solid #e4e4e4;
+    padding: 15px 0px 15px 15px;
+    
+}
+
+.footer-box-1 {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+}
+
+.footer-box-2 {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    white-space: nowrap;  
+}
+
+footer ul a {
+    padding: 8px;
+}
