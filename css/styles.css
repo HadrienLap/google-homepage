@@ -53,10 +53,15 @@ footer {
     border-top: 1px solid #e4e4e4;
 }
 
+footer li {
+    float: left;
+}
+
 footer a {
     font-size: 15px;
     color: rgba(0,0,0,.54);
     text-decoration: none;
+    padding: 7px;  
 }
 
 #country {
@@ -69,23 +74,7 @@ footer a {
     justify-content: space-between;
     flex-wrap: wrap;
     border-top: 1px solid #e4e4e4;
-    padding: 15px 0px 15px 15px;
-    
+    padding: 15px 15px 15px 15px;
 }
 
-.footer-box-1 {
-    display: flex;
-    flex-direction: row;
-    white-space: nowrap;
-}
 
-.footer-box-2 {
-    display: flex;
-    flex-direction: row;
-    justify-self: flex-end;
-    white-space: nowrap;  
-}
-
-footer ul a {
-    padding: 8px;
-}
