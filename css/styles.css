@@ -14,7 +14,21 @@ nav li {
 
 nav ul a {
     display: block;
-    padding: 8px;
+    padding: 15px;
+    font-size: small;
+    text-decoration: none;
+    color: rgba(0,0,0,0.55);
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+}
+
+#finder-logo {
+    height: 20px;
+    padding-top: 13px;
+    margin-right: 15px;
+    margin-left: 10px;
 }
 
 .logo {
@@ -23,7 +37,7 @@ nav ul a {
     margin-right: auto;
     padding-top: 150px;
     padding-bottom: 30px;
-    padding-left: 135px;
+    padding-left: 170px;
 }
 
 #search-box {
@@ -36,8 +50,6 @@ nav ul a {
     background-repeat: no-repeat, no-repeat;
     background-position: 4% 50%, 95% 50%;
     padding-left: 50px;
-    
-    
 }
 
 #search-box:focus {
@@ -85,6 +97,10 @@ footer a {
     color: rgba(0,0,0,.54);
     text-decoration: none;
     padding: 7px;  
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 #country {
