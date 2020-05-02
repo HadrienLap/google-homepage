@@ -34,6 +34,15 @@ nav ul a {
     border: 1px solid #dfe1e5; 
 }
 
+#search-box:focus {
+    outline: none;
+    box-shadow: -2px 2px 3px rgba(0,0,0,0.10), 2px -2px 3px rgba(0,0,0,0.10);   
+}
+
+#search-box:hover {
+    box-shadow: -2px 2px 3px rgba(0,0,0,0.10), 2px -2px 3px rgba(0,0,0,0.10);   
+}
+
 .search-buttons {
     margin: 25px 5px 25px 5px;
     border-radius: 5px;
@@ -43,6 +52,7 @@ nav ul a {
     color: rgba(0,0,0,.54);
     font-size: 15px;
 }
+
 
 footer {
     width: 100%;
@@ -77,4 +87,7 @@ footer a {
     padding: 15px 15px 15px 15px;
 }
 
-
+.footer-box {
+    display: flex;
+    white-space: nowrap;
+}
